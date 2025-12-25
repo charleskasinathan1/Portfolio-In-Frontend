@@ -58,7 +58,7 @@ body {
 }
 
 .nav-links li a:hover {
-  color: #7e826d;
+  color: #aeafaa;
 }
 
 .menu-icon {
@@ -74,7 +74,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 80px 10%;
-  min-height: 120vh;
+  min-height: 100vh;
 }
 
 .hero-left {
@@ -84,7 +84,7 @@ body {
 
 .hero-left .tagline {
   font-size: 14px;
-  color: #999;
+  color: #414040;
   margin-bottom: 20px;
   letter-spacing: 2px;
 }
@@ -97,7 +97,7 @@ body {
 }
 
 .hero-left h1 span {
-  color: #a5a488;
+  color: #6d6d67;
 }
 
 .buttons {
@@ -238,8 +238,8 @@ body {
 }
 
 .skills-slider {
-  left: 28%;
-  width: 100%;
+  display: flex;
+  justify-content: center;
   overflow: hidden;
   position: relative;
   justify-content: center;    /* Center horizontally */
@@ -478,7 +478,7 @@ body {
 }
 
 /* Responsive Navbar & Layout */
-@media (max-width: 100px) {
+@media (max-width: 991px) {
   .hero {
     flex-direction: column;
     text-align: center;
